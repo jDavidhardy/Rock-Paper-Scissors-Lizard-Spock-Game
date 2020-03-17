@@ -6,12 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rock__Paper__Scissors__Lizard__Spock_Game
 {
-    class Program
+    class test_one
     {
-        static void Main(string[] args)
-        {
-            Gameplay sim = new Gameplay();
-            sim.GameplayRules();
-        }
     }
 }
