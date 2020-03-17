@@ -16,10 +16,11 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
         //constructor {ENTER ctor tab tab to get template}
         public Gameplay()
         {
-            player1 = new Human();              //comment this section out until their respective class' are completed.
+           /* player1 = new Human();  */            //comment this section out until their respective class' are completed.
             player2 = new Player();
         }
 
+       
         public void GameplayRules()
         {
             Console.WriteLine("Let's play the 'Big Bang Theory shows's game of:  Rock-Paper-Scissors-Lizard-Spock");
