@@ -113,6 +113,7 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
                 int index = random.Next(list.Count);
                 Console.WriteLine("Computer chose: " + list[index]);
             }
+            Console.ReadLine();
 
             /*public void RunGame()      // This underlined public is coming up as invalid & for hours I haven't figured out why. Ahhhhh! It keeps telling me to delete this section, but NO I WON'T!
             {
