@@ -12,8 +12,10 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
         {
 
             Gameplay sim = new Gameplay();
-            sim.RunGame();
-
+            //sim.RunGame();
+            sim.GameplayRules();
+            sim.ChooseGameMode();
+            sim.SetGesture();
         }
     }
 }

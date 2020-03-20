@@ -114,12 +114,12 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
                 Console.WriteLine("Computer chose: " + list[index]);
             }
 
-            public void RunGame()      // This underlined public is coming up as invalid & for hours haven't figured out why. Ahhhhh!
+            /*public void RunGame()      // This underlined public is coming up as invalid & for hours I haven't figured out why. Ahhhhh! It keeps telling me to delete this section, but NO I WON'T!
             {
                 GameplayRules();
                 ChooseGameMode();
                 SetGesture();
-            }
+            }*/
         }
     }
 }
