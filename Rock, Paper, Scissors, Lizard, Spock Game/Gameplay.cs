@@ -53,14 +53,15 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
             string userInput = Console.ReadLine();
             /*//return userInput;*/
 
-            player1 = new Human();
+            //player1 = new Human();
             if (userInput == "s")
             {
-
+                player1 = new Human();
                 player2 = new Computer();
             }
             else if (userInput == "m")
             {
+                player1 = new Human();
                 player2 = new Human();
             }
             else
@@ -105,13 +106,14 @@ namespace Rock__Paper__Scissors__Lizard__Spock_Game
                     break;
             }
 
-            //Console.ReadLine();
+            Console.ReadLine();
+
             // COMPUTER RANDOMLY SELECTING 
             var random = new Random();
             {
                 var list = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
                 int index = random.Next(list.Count);
-                Console.WriteLine("Computer chose: " + list[index]);
+                Console.WriteLine("Johnny 5 chose: " + list[index]);
             }
             Console.ReadLine();
 
