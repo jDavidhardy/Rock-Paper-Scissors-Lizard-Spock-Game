@@ -6,18 +6,23 @@ using System.Threading.Tasks;
 
 namespace Rock__Paper__Scissors__Lizard__Spock_Game
 {
-    class Computer
+    class Computer: Player
     {
-        // member variables (HAS A)
+        public override void SetGesture()
+        {
+            // COMPUTER RANDOMLY SELECTING 
+            var random = new Random();
+            {
+                var list = new List<string> { "Rock", "Paper", "Scissors", "Lizard", "Spock" };
+                int index = random.Next(list.Count);
+                Console.WriteLine("Johnny 5 chose: " + list[index]);
+            }
+            Console.ReadLine();
 
-
-
-
-        //constructor {ENTER ctor tab tab to get template}
-
-
-
-
-        // member methods (CAN DO)
+        }
+        public override void SetName()
+        {
+            name = "Johnny 5";
+        }
     }
 }
